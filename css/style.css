@@ -1,0 +1,395 @@
+@charset "UTF-8";
+/* Body */
+
+
+/* Add some content at the bottom of the video/page */
+.content {
+   
+
+    background: #000;
+    color: #000;
+    width: 100%;
+    padding: 20px;
+	height:50%;
+}
+
+.page-footer font-small blue pt-4{
+	border-top:thin;
+	border-top:#fff;
+	padding:20px;
+	bottom:0;
+	background:#000;
+}
+
+body{
+	background-color:#000;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+/* Style the button used to pause/play the video */
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 17px;
+    background-color: rgba(45, 55, 71, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(43, 46, 61, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #2d3747;
+}
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+	
+	 list-style-type:none;
+  display:flex;
+  justify-content: center;
+	margin-bottom: 0 !important;
+	font-family: 'Do Hyeon', sans-serif;
+
+
+}
+li{
+	display:inline;
+	margin-right:100px;
+	margin-left:100px;
+	font-size:20px;
+	color:#fff;
+	margin-bottom: 0 !important;
+	font-family: 'Do Hyeon', sans-serif;
+	
+	
+	
+	    width: 100px;
+    height: 100px;
+	background-color:#8c0817;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+	
+	text-align: center;
+vertical-align: middle;
+line-height: 90px; 
+border-radius:5px;      
+
+
+	
+}
+
+/* unvisited link */
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+
+li:hover{
+ 
+
+}
+
+
+nav{
+	background-color: #000;
+	bottom:0;
+	padding-bottom:0;
+	margin-bottom:0;
+	margin-bottom: 0 !important;
+
+}
+
+
+/* Default to hide the video on all devices */
+#video{display:none}
+
+/* Default to display the image on all devices */
+#videosubstitute{display:block;width:auto;height:100%;}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+/* Default to hide the video on all devices */
+#video{display:none}
+
+/* Default to display the image on all devices */
+#videosubstitute{display:block;width:auto;height:100%;}
+
+html, body {
+    height: 100%;
+    margin: 0;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #0192F3;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+div.pausebutton{
+
+top:10px;
+    position: fixed;
+    left: 0;
+	  justify-content: center;
+   width:100%;
+   display:flex;
+}
+
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+div.relative {
+top:700px;
+    position: relative;
+    left: 0;
+    border-top: 3px solid #8c0817;
+
+}
+
+h1{color:#fff;}
+
+
+
+div.logo{
+top:0px;
+position:fixed;
+left:0;
+}
+
+
+div.buttonholder{
+top:200px;
+    position: relative;
+    left: 0;
+	  justify-content: center;
+   width:100%;
+   display:flex;
+
+}
+
+#hideshow{
+display:inline;
+
+
+
+	margin-bottom: 0 !important;
+	font-family: 'Do Hyeon', sans-serif;
+	
+
+    font-size: 18px;
+    padding: 10px;
+background-color:transparent;
+ 
+
+    cursor: pointer;
+	position:relative;
+	top:-230px;
+	text-align: center;
+
+	  justify-content: center;
+	  
+	  
+
+	  width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 40px solid #8c0817;
+	  
+
+
+	
+
+}
+
+
+
+
+#contenttext{
+position: absolute;
+    top: 0;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+
+	text-align:center;
+	  display: inline-block;
+    vertical-align: middle;
+}
+
+p{
+font-family: 'Do Hyeon', sans-serif;
+}
+
+#navlinks{
+
+
+}
+
+.dropbtn {
+  
+    color: white;
+
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+background-color:#8c0817;
+width:100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+background-color:#8c0817;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+
+    text-decoration: none;
+    display: inline-block;
+	background-color:#8c0817;
+}
+
+.dropdown-content a:hover {background-color: #000}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000;
+}
+
+
+
+#widgets{
+top:-100px;
+    position: relative;
+ left:0px;
+	  justify-content: center;
+   width:20%;
+
+       vertical-align: middle;
+
+}
+
+#socialmedia{
+
+width:100px;
+height:50px;
+
+}
+
+div.footer{
+bottom:-500px;
+    position: relative;
+    left: 0;
+
+	}
+
+	
+	
+	
+	
+
+
+
+
+
+
