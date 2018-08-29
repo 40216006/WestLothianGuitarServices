@@ -121,17 +121,19 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: #fff;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: #fff;
 }
 
 
 
 li:hover{
+	
+	#fff;
  
 
 }
@@ -227,7 +229,7 @@ div.relative {
 bottom:-450px;
     position: relative;
   
-    border-top: 3px solid #8c0817;
+    /* border-top: 3px solid #8c0817; */
 
 }
 
@@ -275,12 +277,6 @@ background-color:transparent;
 	  
 	  
 
-	  width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 40px solid #8c0817;
-	  
 
 
 	
