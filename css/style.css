@@ -10,7 +10,7 @@
     color: #000;
     width: 100%;
     padding: 20px;
-	height:50%;
+	height:100%;
 }
 
 .page-footer font-small blue pt-4{
@@ -84,10 +84,10 @@ ul {
 
 }
 li{
-	display:inline;
+	display:inline-block;
 	margin-right:1px;
 	margin-left:1px;
-	font-size:20px;
+	font-size:100px;
 	color:#fff;
 	margin-bottom: 0 !important;
 	font-family: 'Do Hyeon', sans-serif;
@@ -103,7 +103,10 @@ li{
 	text-align: center;
 vertical-align: middle;
 line-height: 90px; 
-border-radius:5px;      
+border-radius:5px;  
+
+
+
 
 
 	
@@ -192,16 +195,18 @@ html, body {
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+	height:500px;
+	top:0px;
 
 }
 
 /* Style the button used to pause/play the video */
 #myBtn {
-    width: 200px;
+    width: 100px;
     font-size: 18px;
     padding: 10px;
-    border: 1px solid #0192F3;
-    background: #000;
+    border-radius:5px;
+    background: #8c0817;
     color: #fff;
     cursor: pointer;
 }
@@ -225,9 +230,14 @@ top:10px;
 
 
 div.relative {
-
-bottom:-450px;
-    position: relative;
+left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+bottom:-60px;
+    position: fixed;
+	width:30%;
+	
   
     /* border-top: 3px solid #8c0817; */
 
@@ -245,7 +255,7 @@ left:0;
 
 
 div.buttonholder{
-top:200px;
+top:-200px;
     position: relative;
     left: 0;
 	  justify-content: center;
@@ -269,8 +279,8 @@ background-color:transparent;
  
 
     cursor: pointer;
-	position:relative;
-	top:240px;
+	position:absolute;
+	top:210px;
 	text-align: center;
 
 	  justify-content: center;
@@ -288,7 +298,7 @@ background-color:transparent;
 
 #contenttext{
 position: absolute;
-    top: 200px;
+    top: -50px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -314,17 +324,26 @@ font-family: 'Do Hyeon', sans-serif;
   
     color: white;
 
-    font-size: 16px;
+    font-size: 60%;
     border: none;
     cursor: pointer;
 background-color:#8c0817;
 width:100%;
+
+text-shadow: 2px 2px #000;
+  white-space: nowrap;
+  overflow: hidden;
+  
+  box-shadow:  5px 10px #000;
+
+
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
 	width:100%;
+	
 }
 
 .dropdown-content {
@@ -334,10 +353,13 @@ background-color:#8c0817;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	bottom:100%;
+
+  
 }
 
 .dropdown-content a {
-    color: black;
+    color: #fff;
 	width:100%;
     text-decoration: none;
     display: inline-block;
